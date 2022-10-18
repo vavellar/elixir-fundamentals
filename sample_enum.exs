@@ -3,9 +3,10 @@ defmodule Sample.Enum do
         hd(list)
     end
 
+    # Pattern matching
+
     def first2(list, val \\ nil)
     def first2([head | _], _), do: head
-    # Pattern matching
     def first2([], val), do: val
 
     #Guard Clauses
