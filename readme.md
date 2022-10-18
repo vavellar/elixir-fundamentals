@@ -17,3 +17,5 @@ Rename a module in your module
 Allows using macros in your module
 
 Obs: its possible to use these directives in inside the whole module or just inside functions
+
+### Functions returns the last evaluated expression
